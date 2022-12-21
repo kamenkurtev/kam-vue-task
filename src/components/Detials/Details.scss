@@ -1,0 +1,37 @@
+.card-group {
+  display: flex;
+  flex-direction: row;
+  padding: 0 32px;
+}
+
+.card {
+  border-radius: 8px;
+  background: #f6f9fb;
+  padding: 16px;
+  margin-right: 16px;
+  width: 33%;
+
+  &:last-child {
+    margin-right: unset;
+  }
+}
+
+.grid {
+  padding: 32px;
+  table {
+    width: 100%;
+
+    td,
+    th {
+      padding: 16px;
+      text-align: left;
+      border-bottom: 1px solid #e1e4e5;
+      font-size: 16px;
+    }
+
+    th {
+      font-weight: normal;
+      color: #b2b7b9;
+    }
+  }
+}
